@@ -1,0 +1,121 @@
+{
+  "name": "react-webpack-start",
+  "version": "0.0.1",
+  "description": "react+redux+rxjs",
+  "author": {
+    "name": "Sayll",
+    "email": "kilol@qq.com",
+    "url": "https://github.com/sayll"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": "better-npm-run dll:dev && npm run dev",
+    "dev": "better-npm-run dev",
+    "clean": "rimraf build",
+    "build": "better-npm-run build",
+    "deploy": "npm run clean && npm run dll && npm run build",
+    "dll": "better-npm-run dll",
+    "report-coverage": "codecov",
+    "cnpm": "npm install cnpm -g --registry=https://registry.npm.taobao.org"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "node ./server/main",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "build": {
+      "command": "webpack --config config/webpack/webpack.build",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "dll": {
+      "command": "webpack --config config/webpack/webpack.dll",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "dll:dev": {
+      "command": "webpack --config config/webpack/webpack.dll",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "visualizer": {
+      "command": "webpack --config config/webpack/webpack.build",
+      "env": {
+        "NODE_ENV": "production",
+        "NODE_TEST": "production"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/sayll/react-webpack-start/issues",
+    "email": "kilol@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayll/react-webpack-start.git"
+  },
+  "homepage": "https://github.com/sayll/react-webpack-start#readme",
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "immutable": "^4.0.0-rc.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1",
+    "redux-logger": "^3.0.1",
+    "redux-observable": "^0.14.1",
+    "reselect": "^3.0.0",
+    "rxjs": "^5.3.0",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-istanbul": "^4.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "better-npm-run": "0.0.14",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "glob": "^7.1.1",
+    "happypack": "^3.0.3",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "image-webpack-loader": "^3.3.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-loader": "^1.3.3",
+    "postcss-px2rem": "^0.3.0",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.2",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-md5-hash": "0.0.5",
+    "webpack-merge": "^4.1.0",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "peerDependencies": {}
+}
