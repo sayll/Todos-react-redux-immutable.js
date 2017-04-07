@@ -25,7 +25,7 @@ class AddTodo extends Component {
       <form className="addTodoForm" onSubmit={e => this.handleAddTodo(e)}>
         <Input
           type="text" placeholder="Enter Todo"
-          ref={e => {
+          innerRef={e => {
             this.input = e;
           }}
         />
