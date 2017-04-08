@@ -1,4 +1,4 @@
-# Todo-react-redux-reselect-immutable
+# Todo-react-redux-immutable
 综合运用react,redux,react-redux,immutable.js,styled-components等工具库，完成一个Todos案例。
 
 ## 项目讲解
