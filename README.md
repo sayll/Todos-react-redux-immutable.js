@@ -1,5 +1,9 @@
 # Todo-react-redux-reselect-immutable
-使用react,redux,reselect,react-redux,immutable.js等工具库，完成一个Todos案例。
+综合运用react,redux,react-redux,immutable.js,styled-components等工具库，完成一个Todos案例。
+
+## 项目讲解
+作者最近比较忙，日后补上。
+
 ## start
 
 ```youtrack
@@ -10,4 +14,4 @@
 
 ## 项目演示
 
-<img src='http://thumbnail0.baidupcs.com/thumbnail/0fdb25d87272a77ca1296e3c932ef4c9?fid=2568993519-250528-37352541471884&time=1491627600&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PNsgkeXpkC2lT2kHK3meXSgQ6KM%3d&expires=8h&chkbd=0&chkv=0&dp-logid=2263122836866696408&dp-callid=0&size=c1920_u1080&quality=90'>
+<img src='http://thumbnail0.baidupcs.com/thumbnail/125e02d99b5ba1fc2d5e00af6b8dda43?fid=2568993519-250528-700131770139316&time=1491631200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vm7NgRCuvkknm50wwIExWsLaPHI%3d&expires=8h&chkbd=0&chkv=0&dp-logid=2263480928870778767&dp-callid=0&size=c1920_u1080&quality=90'>

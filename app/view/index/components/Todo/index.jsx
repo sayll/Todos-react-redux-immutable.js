@@ -1,6 +1,6 @@
 import React, { PropTypes, PureComponent } from 'react';
 import ImmutablePropTypes from 'react-immutable-proptypes';
-import './index.pcss';
+import './global-style';
 
 class AddTodo extends PureComponent {
   static propTypes() {

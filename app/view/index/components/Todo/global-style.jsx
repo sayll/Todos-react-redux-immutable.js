@@ -1,3 +1,6 @@
+import { injectGlobal } from 'styled-components';
+
+export default injectGlobal`
 .todo {
   padding: 10px 20px;
   margin-top: -1px;
@@ -24,3 +27,4 @@
     }
   }
 }
+`;
