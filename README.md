@@ -7,6 +7,8 @@
 ## 项目启动
 
 ```youtrack
+  $ git clone https://github.com/sayll/Todos-react-redux-immutable.js.git
+  $ cd Todos-react-redux-immutable.js
   $ npm install
   $ npm start
 ```
