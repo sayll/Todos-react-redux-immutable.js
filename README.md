@@ -17,4 +17,4 @@
 ## 项目演示
 - github 限制，演示无法完整显示，请各位看官，有兴趣的自行运行。
 
-<img src='http://thumbnail0.baidupcs.com/thumbnail/125e02d99b5ba1fc2d5e00af6b8dda43?fid=2568993519-250528-700131770139316&time=1491631200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vm7NgRCuvkknm50wwIExWsLaPHI%3d&expires=8h&chkbd=0&chkv=0&dp-logid=2263480928870778767&dp-callid=0&size=c1920_u1080&quality=90'>
+<img src='https://sfault-image.b0.upaiyun.com/364/001/3640019996-58e882a3bc804_articlex'>
